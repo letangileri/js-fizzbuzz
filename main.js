@@ -12,3 +12,19 @@
 // proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
 
+// #Preparazione
+
+
+// #Elaborazione
+
+
+// #Output
+
+for (let i = 0; i <= 100; i++) {
+    if (i%3 == 0){
+        console.log(`Fizz ${i}`);
+    } 
+    if (i%3 == 0 && i%5 == 0){
+        console.log(`FizzBuss ${i}`);
+    }
+}
