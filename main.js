@@ -21,9 +21,11 @@
 // #Output
 
 for (let i = 0; i <= 100; i++) {
+    //controllo i multipli di 3
     if (i%3 == 0){
         console.log(`Fizz ${i}`);
     } 
+    //controllo i multipli di 3 e di 5
     if (i%3 == 0 && i%5 == 0){
         console.log(`FizzBuss ${i}`);
     }
