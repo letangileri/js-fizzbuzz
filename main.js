@@ -30,3 +30,41 @@ for (let i = 0; i <= 100; i++) {
         console.log(`FizzBuss ${i}`);
     }
 }
+
+
+const numero_0 = 0;
+console.log(numero_0);
+
+const numero_1 = 1;
+console.log(numero_1);
+
+const numero_2 = 2;
+console.log(numero_2);
+
+const numero_3 = 3;
+console.log(numero_3);
+
+const numero_4 = 4;
+console.log(numero_4);
+
+const numero_5 = 5;
+console.log(numero_5);
+
+const numero_6 = 6;
+console.log(numero_6);
+
+const numero_7 = 7;
+console.log(numero_7);
+
+const numero_8 = 8;
+console.log(numero_8);
+
+const numero_9 = 9;
+console.log(numero_9);
+
+
+if((numero_0%3 == 0) || (numero_1%3 == 0) || (numero_2%3 == 0) ||
+(numero_3%3 == 0) ||(numero_4%3 == 0) ||(numero_5%3 == 0) ||(numero_6%3 == 0) ||
+(numero_7%3 == 0) ||(numero_8%3 == 0) ||(numero_9%3 == 0)){
+    console.log("Fizz");
+}
